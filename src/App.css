@@ -1,0 +1,92 @@
+.result {
+  height: 60px;
+  background-color: black;
+  color:wheat;
+  width: 100%;
+}
+
+.statusMessage {
+  height: 60px;
+  background-color: blanchedalmond;
+  color:black;
+  width: 100%;
+}
+
+.resultError {
+  height: 60px;
+  background-color: lightsalmon;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.statusCaption {
+  height: 60px;
+  background-color: goldenrod;
+  width: 100%;
+  text-align:left;
+  vertical-align:middle;
+}
+
+.statusCaption p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 600px;
+  margin: auto;
+}
+
+.buttonNormal {
+  width: 20%;
+  height: 40px;
+  font-size: 30px;  
+
+  background-color: silver;
+  cursor: pointer;
+}
+
+.buttonHalfNormal {
+  width: 10%;
+  height: 40px;
+  font-size: 30px;  
+
+  background-color: silver;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0495c9;
+  border-color: #357ebd; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #00b3db;
+  border-color: #285e8e; /*set the color you want here*/
+}
+
+.notButton {
+  width: 20%;
+  height: 40px;
+  font-size: 30px;
+
+  background-color: #bbb;  
+  cursor: default;
+}
+
+.buttonEqual {
+  width: 20%;
+  height: 40px;
+  font-size: 30px;
+  font-style: bold;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
